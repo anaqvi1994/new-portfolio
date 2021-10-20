@@ -33,6 +33,10 @@ nav {
     padding: 0px 5%;
 }
 
+nav h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 nav ul {
     display: flex;
 }
@@ -143,9 +147,99 @@ button:active{
 }
 
 .about-bio p:nth-child(2) {
-    color: #3e3d3d
+    color: #3e3d3d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 5px;
+}
+
+.about-bio p:nth-child(3),
+.about-bio p:nth-child(4) {
+    color: #7e7d7d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.projects-container {
+    width: 80%;
+    height: 600px;
+    background-color:black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    display: flex;
+    margin: 2% auto 20px auto;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.projects-container p {
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    position: absolute;
+    left: 20px;
+    top: 2px;
+}
+
+.contact-container {
+    width: 80%;
+    height: 150px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    display: flex;
+    margin: 2% auto 20px auto;
+    position: relative;
+}
+
+.contact-container p {
+    display: flex;
+}
+
+.contact-container p:nth-child(1){
+    color: #403e3e;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 23px;
-    line-height: 0px;
+    line-height: 10px;
+    position: absolute;
+    left: 20px;
+    top: 2px;
+}
+
+.contact-container p:nth-child(2){
+    color: #403e3e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 10px;
+    position: relative;
+    left: 20px;
+    top: 35px;
+}
+
+.contact-container p:nth-child(3){
+    color: #403e3e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 10px;
+    position: relative;
+    left: 20px;
+    top: 40px;
+}
+
+.contact-container p:nth-child(4){
+    color: #403e3e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 10px;
+    position: relative;
+    left: 20px;
+    top: 45px;
 }
