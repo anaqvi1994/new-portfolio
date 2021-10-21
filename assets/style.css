@@ -25,6 +25,7 @@ section {
 
 Section h1 {
     font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
 }
 
 nav {
